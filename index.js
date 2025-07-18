@@ -83,4 +83,4 @@ async function sendMessage(roomId, content) {
 }
 
 app.listen(PORT, () => {
-  console.log(`🌐 Bot läuft auf
+  console.log(`🌐 Bot läuft auf http://localhost:${PORT}`)});
